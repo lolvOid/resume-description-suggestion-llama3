@@ -1,0 +1,20 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE/Editor specific
+.vscode/
+
+# Other sensitive files (add more as needed)
+config.json
+secrets.json
+
+# Ignore logs and other generated files
+*.log
+*.csv
+*.xls
