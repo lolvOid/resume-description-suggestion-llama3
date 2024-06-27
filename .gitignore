@@ -20,3 +20,8 @@ secrets.json
 *.log
 *.csv
 *.xls
+
+
+env
+.env
+.env
