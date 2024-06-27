@@ -39,27 +39,24 @@ Request Body (JSON):
 
 ```JSON
 {
-  "current_role": "Web Developer" (Optional),
-  "sentence": "Proficient in Go programming language" (Optional),
-  "keywords": ["software development", "AI", "cloud computing"] (Optional)
+  "current_role": "Web Developer"
+  "sentence": "Proficient in Go programming languag",
 }
 ```
 
-current_role (Optional): The specific role for which you require suggestions.
-sentence (Optional): A starting sentence to generate additional sentences or verb suggestions.
+current_role: The specific role for which you require suggestions.
+sentence: A starting sentence to generate additional sentences or verb suggestions.
 
 Response (JSON):
 
 ```JSON
-{
-  "suggestions": [
+  [
     "Developed scalable web applications using cloud-based technologies.",
     "Integrated AI-driven analytics tools with web applications.",
     "Designed and implemented high-performance web services.",
     "Deployed cloud-based web applications using DevOps practices.",
     "Built reliable backend systems with robust third-party packages."
   ]
-}
 ```
 
 ### GET /
