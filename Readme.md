@@ -32,7 +32,7 @@ python run.py
 By default, the API is accessible on http://localhost:5000.
 
 ## API Endpoints
-### POST /suggest-verbs
+### POST /suggest
 
 Generates suggestions based on the provided parameters in the request body.
 Request Body (JSON):
@@ -63,7 +63,7 @@ Response (JSON):
 
 Returns a simple welcome message or API documentation.
 Usage
-Using POST /suggest-verbs:
+Using POST /suggest:
 
 Provide current_role and either sentence or keywords in the request body.
 The API responds with up to 5 suggestions formatted as a JSON array.
@@ -72,7 +72,7 @@ Example usage in Python:
 ```Python
 import requests
 
-url = 'http://localhost:5000/suggest-verbs'
+url = 'http://localhost:5000/suggest'
 data = {
   "current_role": "Web Developer",
   "sentence": "Proficient in Go programming language",
