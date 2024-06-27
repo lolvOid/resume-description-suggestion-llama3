@@ -7,7 +7,7 @@ This Simple Flask-based REST API empowers you to create impactful CV description
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/lolvOid/python-resume-description-suggestion-llama3
+git clone https://github.com/lolvOid/resume-description-suggestion-llama3
 cd python-resume-description-suggestion-llama3
 ```
 Install dependencies:
