@@ -1,5 +1,5 @@
 from openai import OpenAI
-from .config import Config
+from configs.config import Config
 import json
 
 client = OpenAI(
