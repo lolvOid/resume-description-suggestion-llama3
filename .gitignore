@@ -1,13 +1,15 @@
-# Python
+.vercel
+*.log
 *.pyc
-__pycache__/
+__pycache__
 
-# Virtual environments
-venv/
-env
 .env
-.env.*
-.venv/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # IDE/Editor specific
 .vscode/
@@ -15,13 +17,3 @@ env
 # Other sensitive files (add more as needed)
 config.json
 secrets.json
-
-# Ignore logs and other generated files
-*.log
-*.csv
-*.xls
-
-
-env
-.env
-.env
